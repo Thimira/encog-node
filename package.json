@@ -1,0 +1,25 @@
+{
+  "name": "encog-node",
+  "version": "0.0.1",
+  "description": "A Node.js wrapper for Encog Machine Learning Framework",
+  "author": {
+    "name": "Thimira Amaratunga",
+    "email": "thimiraamara@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thimira/encog-node.git"
+  },
+  "dependencies": {
+    "jsdom": "0.8.*",
+  },
+  "devDependencies": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/encog-js",
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": "*"
+  }
+}
