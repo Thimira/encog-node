@@ -101,9 +101,15 @@ var ENCOG = require('encog-node');
 ENCOG.example();
 ```
 
+This will run the same XOR example mentioned above.
+
+## Node.js version compatibility
+
+Should work on all Node.js versions. Tested up to Node.js `v5.11.0`
+
 ## Credits
 
-Credits should go to Jeff Heaton for the original Encog Machine Learning Framework - http://www.heatonresearch.com/about/
+Credits should go to [Jeff Heaton](https://github.com/jeffheaton) for the original Encog Machine Learning Framework - http://www.heatonresearch.com/about/
 
 The capabilities of the framework are explained here by the author : http://www.codeproject.com/Articles/477689/JavaScript-Machine-Learning-and-Neural-Networks-wi
 
