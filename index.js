@@ -1,7 +1,23 @@
-/**
- * encog-node : a Node.js port of the Encog Machine Learning Framework by Jeff Heaton
- * ported the original encog-javascript library (https://github.com/encog/encog-javascript) to work with Node.js
- */
+var requireDir = require('require-dir');
 
-module.exports = require('./lib/encog-js');
-module.exports.example = require('./examples/xor-network');
+var helpers = requireDir('./lib/helpers');
+var constants = require('./lib/constants');
+var activationFunctions = requireDir('./lib/activationFunctions');
+var errorFunctions = requireDir('./lib/errorFunctions');
+var layers = requireDir('./lib/layers');
+var networks = requireDir('./lib/networks');
+var trainers = requireDir('./lib/trainers');
+var radialFunctions = requireDir('./lib/radialFunctions');
+var examples = requireDir('./examples');
+
+module.exports = {
+    helpers: helpers,
+    constants: constants,
+    activationFunctions: activationFunctions,
+    errorFunctions: errorFunctions,
+    layers: layers,
+    networks: networks,
+    trainers: trainers,
+    radialFunctions: radialFunctions,
+    examples: examples
+};
