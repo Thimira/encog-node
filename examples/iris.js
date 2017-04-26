@@ -1,9 +1,14 @@
-// https://en.wikipedia.org/wiki/Iris_flower_data_set
-var irisDataset = require('ml-dataset-iris').getDataset();
-var _ = require('lodash');
-var ENCOG = require('../index');
+/**
+ * Iris flower data set Example from Encog
+ * @author Rui Cardoso
+ * @source https://en.wikipedia.org/wiki/Iris_flower_data_set
+ */
 
 module.exports = function () {
+    var irisDataset = require('ml-dataset-iris').getDataset();
+    var _ = require('lodash');
+    var ENCOG = require('../index');
+
     irisDataset = _.shuffle(irisDataset);
 
     var input = [];

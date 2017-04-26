@@ -3,9 +3,10 @@
  * @author Jeff Heaton
  * @source http://www.codeproject.com/Articles/477689/JavaScript-Machine-Learning-and-Neural-Networks-wi
  */
-var ENCOG = require('../index');
 
 module.exports = function () {
+    var ENCOG = require('../index');
+
     var XOR_INPUT = [
         [0, 0],
         [1, 0],
