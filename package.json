@@ -1,6 +1,6 @@
 {
   "name": "encog-node",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A Node.js port of the Encog Machine Learning Framework",
   "author": {
     "name": "Thimira Amaratunga",
@@ -13,15 +13,21 @@
   "bugs": {
     "url": "https://github.com/Thimira/encog-node/issues"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "require-dir": "^0.3.1"
+  },
+  "devDependencies": {
+    "ml-dataset-iris": "^1.0.0",
+    "shuffle-array": "^1.0.1"
+  },
   "directories": {
     "lib": "./lib"
   },
   "main": "index.js",
   "readmeFilename": "README.md",
   "engines": {
-    "node": "*"
+    "node": ">=5.0.0"
   },
   "keywords": [
     "encog-node",
