@@ -20,7 +20,7 @@ var ENCOG = require('encog-node');
 
 ### Example
 
-The example code below will build a simple XOR Neural Network, the code is included in `examples\xor-network.js`
+The example code below will build a simple XOR Neural Network, the code is included in `examples\xor.js`
 
 ```js
 var ENCOG = require('encog-node');
@@ -93,7 +93,8 @@ Will display,
 
 ### Running included examples
 
-The included XOR example can be simply run by,
+The examples are included in the `examples` folder
+The XOR example can be simply run by,
 
 ```js
 var ENCOG = require('encog-node');
@@ -101,11 +102,17 @@ var ENCOG = require('encog-node');
 ENCOG.examples.xor();
 ```
 
-This will run the same XOR example mentioned above.
+The Iris flower data set example can be run by,
+
+```js
+var ENCOG = require('encog-node');
+
+ENCOG.examples.iris();
+```
 
 ## Node.js version compatibility
 
-Should work on all Node.js versions. Tested up to Node.js `v5.11.0`
+Should work on all Node.js versions. Tested up to Node.js `v6.3.0`
 
 ## Credits
 
@@ -115,4 +122,5 @@ The capabilities of the framework are explained here by the author : http://www.
 
 ### Contributors
 
-Ported to Node.js by [Thimira Amaratunga](https://github.com/Thimira)
+  - [Thimira Amaratunga](https://github.com/Thimira) - Originally ported Encog to Node.js
+  - [Rui Cardoso](https://github.com/redsoul)

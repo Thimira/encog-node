@@ -4,8 +4,21 @@
   "description": "A Node.js port of the Encog Machine Learning Framework",
   "author": {
     "name": "Thimira Amaratunga",
-    "email": "thimiraamara@gmail.com"
+    "email": "thimiraamara@gmail.com",
+    "url" : "https://github.com/Thimira"
   },
+  "contributors": [
+    {
+      "name": "Thimira Amaratunga",
+      "email": "thimiraamara@gmail.com",
+      "url" : "https://github.com/Thimira"
+    },
+    {
+      "name": "Rui Cardoso",
+      "email": "rui.cardoso@blip.pt",
+      "url" : "https://github.com/redsoul"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Thimira/encog-node.git"
